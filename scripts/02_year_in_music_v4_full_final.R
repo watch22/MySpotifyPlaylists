@@ -2,8 +2,8 @@
 pacman::p_load(tidyverse, lubridate, knitr, ggjoy, genius, tidytext, kableExtra, extrafont, ggthemes, ggrepel, magick, webshot, jsonlite, httr, zoo, plotly, wordcloud, RColorBrewer, cowplot, wordcloud2, paletteer, ggimage, patchwork)
 
 #Setup Spotify Authentication ----
-clientID = 'aaf0705a9d774da582794d3c0922a6ca'
-secret = '9aa26a13b2654325844b33cb7573c901'
+clientID = 'XXXXXXXXXXXX'
+secret = 'XXXXXXXXXXX'
 response = POST(
   'https://accounts.spotify.com/api/token',
   accept_json(),
